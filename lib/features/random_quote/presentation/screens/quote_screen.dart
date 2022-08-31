@@ -20,7 +20,7 @@ class _QuoteScreenState extends State<QuoteScreen> {
           padding: const EdgeInsets.all(10),
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            color:  AppColors.primary,
+            color: AppColors.primary,
           ),
           child: const Icon(Icons.refresh, size: 28, color: Colors.white),
         ),
