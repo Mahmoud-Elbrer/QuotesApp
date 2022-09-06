@@ -15,6 +15,7 @@ class _QuoteScreenState extends State<QuoteScreen> {
     return Column(
       children: [
         const QuoteContent(),
+        //  Quote2Content(text: "Hello world2" ,textStyle : TextStyle(color : Colors.red)),
         Container(
           margin: const EdgeInsets.symmetric(vertical: 15),
           padding: const EdgeInsets.all(10),
