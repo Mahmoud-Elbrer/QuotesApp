@@ -31,6 +31,7 @@ class RandomQuoteLocalDataSourceImpl extends RandomQuoteLocalDataSource {
 
   @override
   Future<void> cacheQuote(QuoteModel quote) {
-    throw UnimplementedError();
+    return sharedPreferences.setString(
+        AppStrings.cachedRandomQuoteKey, json.encode(quote));
   }
 }
